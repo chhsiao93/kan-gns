@@ -1,4 +1,6 @@
 # kan-gns
+This project is to implement Kolmogorov-Arnold layer in Graph Neural Network simulator. The GNS code is modified from [Dr.Kumar's SciML lecture](https://kks32-courses.github.io/sciml/lectures/12-gnn/12-gnn.html) to replace MLP layer with KAN layer. The KAN layer is from the [Blealtan/efficient-kan](https://github.com/Blealtan/efficient-kan/blob/master/src/efficient_kan/kan.py#L260). 
+
 `source build_venv_frontera.sh` to create a virtual environment for TACC Frontera. The script will also download the waterdrop sample for training.
 
 `source start_venv.sh` to load the required module on Frontera and activate the virtual environment.
